@@ -20,14 +20,14 @@ firing_degrees: tuple[float, ...] = (
     0.0,
     135.0,
 )
-base_rpm: float = 1200.0
-redline_rpm: float = 9000.0
+base_rpm: float = 1000.0
+redline_rpm: float = 8750.0
 num_gears: int = 6
 
 idle_time: float = 3.0
-redline_hold_time: float = 2
-accel_time_per_gear: float = 2.5
-decel_time_per_gear: float = 2.5
+redline_hold_time: float = 1
+accel_time_per_gear: float = 2
+decel_time_per_gear: float = 1.5
 
 sample_path: str = "./kick.wav"
 output_path: str = "./engine.wav"
