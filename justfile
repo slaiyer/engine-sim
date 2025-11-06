@@ -1,0 +1,2 @@
+rip:
+    time ./engine.py
